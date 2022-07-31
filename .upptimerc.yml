@@ -5,10 +5,18 @@ repo: HG-Status # The name of this repository
 sites:
   - name: NMS Homepage
     url: https://www.nomanssky.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
+  - name: NMS Authentication Server
+    url: $AUTH_SERVER
+  - name: NMS Blobserve Server
+    url: $BLOB_SERVER
+  - name: NMS Content Report Server
+    url: $REPORT_SERVER
+  - name: NMS Discovery Server
+    url: $DISCOVERY_SERVER
+  - name: NMS Featured Base Images Server
+    url: $FB_SERVER
+  - name: NMS Images Server
+    url: $IMAGES_SERVER
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
