@@ -15,10 +15,10 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.nmscd.com
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://avatars.githubusercontent.com/t/5776046?s=280&v=4
   name: HG Status - NMSCD
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "**NMSCD** uptime monitor for NMS services"
+  introMessage: "This site is provided to you for free by the NMS API reverse engineering team which is part of the [NMSCD](https://nmscd.com)"
   navbar:
     - title: Status
       href: /
